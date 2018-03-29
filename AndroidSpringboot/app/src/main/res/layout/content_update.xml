@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.johnny.androidspringboot.Update"
+    tools:showIn="@layout/activity_update">
+
+    <TextView
+        android:id="@+id/textViewup"
+        android:layout_width="181dp"
+        android:layout_height="200dp"
+        android:layout_above="@+id/nameInputup"
+        android:layout_toEndOf="@+id/textView2up"
+        android:layout_toRightOf="@+id/textView2up"
+        android:text="Input Your Information below"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/buttonup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <TextView
+        android:id="@+id/resultviewup"
+        android:layout_width="500dp"
+        android:layout_height="5000dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonup"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="22dp"
+        android:text=""
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/nameInputup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextup"
+        android:layout_alignLeft="@+id/editTextup"
+        android:layout_alignStart="@+id/editTextup"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nameInputup"
+        android:layout_alignBottom="@+id/nameInputup"
+        android:layout_toLeftOf="@+id/nameInputup"
+        android:layout_toStartOf="@+id/nameInputup"
+        android:text="First Name" />
+
+    <TextView
+        android:id="@+id/textView3up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2up"
+        android:layout_alignLeft="@+id/textView2up"
+        android:layout_alignStart="@+id/textView2up"
+        android:layout_marginBottom="14dp"
+        android:text="Last Name" />
+
+    <EditText
+        android:id="@+id/editTextup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3up"
+        android:layout_alignBottom="@+id/textView3up"
+        android:layout_alignLeft="@+id/editText2up"
+        android:layout_alignStart="@+id/editText2up"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView4up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3up"
+        android:layout_marginBottom="22dp"
+        android:layout_toLeftOf="@+id/editText2up"
+        android:layout_toStartOf="@+id/editText2up"
+        android:text="Date of Birth" />
+
+    <EditText
+        android:id="@+id/editText2up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4up"
+        android:layout_alignBottom="@+id/textView4up"
+        android:layout_alignLeft="@+id/editText3up"
+        android:layout_alignStart="@+id/editText3up"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText4up"
+        android:layout_alignBottom="@+id/editText4up"
+        android:layout_alignEnd="@+id/textView6up"
+        android:layout_alignRight="@+id/textView6up"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editText3up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText4up"
+        android:layout_alignLeft="@+id/editText4up"
+        android:layout_alignStart="@+id/editText4up"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText3up"
+        android:layout_alignBottom="@+id/editText3up"
+        android:layout_toLeftOf="@+id/editText3up"
+        android:layout_toStartOf="@+id/editText3up"
+        android:text="Gender" />
+
+    <EditText
+        android:id="@+id/editText4up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/nameInputup"
+        android:layout_alignLeft="@+id/textView5up"
+        android:layout_alignStart="@+id/textView5up"
+        android:layout_marginBottom="25dp"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/IDinputup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7up"
+        android:layout_alignBottom="@+id/textView7up"
+
+        android:layout_alignLeft="@+id/nameInputup"
+        android:layout_alignStart="@+id/nameInputup"
+        android:ems="10"
+        android:inputType="number"/>
+
+
+</RelativeLayout>

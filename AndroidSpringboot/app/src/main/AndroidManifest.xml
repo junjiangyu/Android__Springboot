@@ -24,6 +24,14 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Delete"
+            android:label="@string/title_activity_delete"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Update"
+            android:label="@string/title_activity_update"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

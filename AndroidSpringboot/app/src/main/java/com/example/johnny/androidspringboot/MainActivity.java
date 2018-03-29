@@ -116,6 +116,15 @@ public class MainActivity extends AppCompatActivity {
             startActivity(getIntent());
         }
 
+        if (id == R.id.action_delete) {
+            Intent myIntent = new Intent(MainActivity.this,Delete.class);
+            MainActivity.this.startActivity(myIntent);
+        }
+
+        if (id == R.id.action_update) {
+            Intent myIntent = new Intent(MainActivity.this,Update.class);
+            MainActivity.this.startActivity(myIntent);
+        }
         return super.onOptionsItemSelected(item);
     }
 }
